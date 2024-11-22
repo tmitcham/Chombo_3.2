@@ -20,5 +20,5 @@ all:
 	if [ ! -e $(PREFIX)/include ]; then mkdir $(PREFIX)/include; fi
 	if [ ! -e $(PREFIX)/lib     ]; then mkdir $(PREFIX)/lib    ; fi
 	cp -rf lib/src/*/*.H $(PREFIX)/include
-	cp -rf lib/*.a  (PREFIX)/lib
+	cp -rf lib/*.a       $(PREFIX)/lib
 
